@@ -1,5 +1,5 @@
 const { getOptions } = require('loader-utils')
-const formatter = require('@maxwellewxam/linting-common-formatter').pugLint
+const formatter = require('@guillaumejchauveau/linting-common-formatter').pugLint
 const Linter = require('pug-lint')
 const configFile = require('pug-lint/lib/config-file')
 
