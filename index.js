@@ -5,7 +5,7 @@ const configFile = require('pug-lint/lib/config-file')
 
 const linter = new Linter()
 
-module.exports = function(source) {
+module.exports = function (source) {
   if (getOptions(this) && getOptions(this).config) {
     linter.configure(getOptions(this).config)
   } else {
