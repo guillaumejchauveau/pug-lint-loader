@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@guillaumejchauveau/linting-common-formatter": "^1.2.3",
-    "loader-utils": "^1.2.3"
+    "loader-utils": "^3.2.1"
   },
   "devDependencies": {
     "pug-lint": "^2.6.0"
